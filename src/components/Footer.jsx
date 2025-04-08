@@ -51,7 +51,7 @@ export default function Footer() {
        <p className="text-sm  text-gray-600">
             <span className="font-semibold ">&copy; 2025.All Rights Reserved.</span>
         </p>
-          <p className='text-sm text-gray-600 font-semibold'>Dessigned By Aymane Zaimi</p>
+          <p className='text-sm text-gray-600 font-semibold'>Designed By Aymane Zaimi</p>
           <ul className=" flex  lg:justify-start gap-5">
           {SOCIAL_LINKS.map((link, index) => (
             <SocialIcon key={index} {...link} />

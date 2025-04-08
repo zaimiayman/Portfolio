@@ -3,7 +3,7 @@ import img from "../assets/p1.jpg";
 
 const About = () => {
   return (
-    <section id="About" className=" px-6 h-screen py-20 ">
+    <section id="About" className=" px-6 h-screen py-20 md:py-20 lg:mt-0 ">
       {/* Titre */}
       <div className=" flex justify-around mb-16 ">
         <h1 className="border-b-4 border-[#218873] p-3 text-5xl md:text-5xl font-bold text-black">
@@ -27,7 +27,7 @@ const About = () => {
           <p className="font-mono text-lg text-slate-600 leading-relaxed">
             Développeur Full-Stack expérimenté, spécialisé dans la conception et
             le développement d'applications web performantes. Compétences solides
-            en front-end (React) et back-end (Node.js, Python), ainsi qu'en
+            en front-end (React) et back-end (Laravel, Python), ainsi qu'en
             gestion de bases de données (SQL, NoSQL).
             <br />
             <br />

@@ -7,6 +7,7 @@ import Projet from "./components/Projet";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Certif from "./components/certif";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
       <Skills/>
       <Contact/>
       <Footer />
-      </div>
+  </div>
   );
 };
 

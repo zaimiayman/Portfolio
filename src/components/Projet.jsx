@@ -2,6 +2,8 @@ import React from 'react';
 import img from '../assets/pt1.png';
 import img1 from '../assets/pt2.png';
 import img2 from '../assets/pt3.png';
+import img3 from '../assets/pt4.png';
+import img4 from '../assets/image.png';
 import { TbHandClick } from "react-icons/tb";
 
 const Projet = () => {
@@ -16,6 +18,22 @@ const Projet = () => {
     },
     {
       id: 2,
+      title: "FiitLife",
+      description: "FiitLife – Transformez votre corps et esprit.",
+      technologies: ["React", "Tailwind", "Laravel"],
+      image: img3,
+      link: "https://fitnessliife.netlify.app"
+    },
+    {
+      id: 3,
+      title: "ETCE INFO",
+      description: "ETCE INFO | Professional Device Repair Services",
+      technologies: ["React", "Tailwind", "Vite"],
+      image: img4,
+      link: "https://etceinfo.netlify.app/"
+    },
+    {
+      id: 4,
       title: "BestShop-Ecommerce",
       description: "Developer community platform.",
       technologies: ["HTML", "CSS", "JavaScript"],
@@ -23,13 +41,14 @@ const Projet = () => {
       link: "https://bestshop-ecommerce.netlify.app/"
     },
     {
-      id: 3,
+      id: 5,
       title: "Phone-Shop",
       description: "An e-commerce platform for Apple Phone.",
       technologies: ["HTML", "CSS", "JavaScript"],
       image: img2,
       link: "https://phoneeeeeeeeeeeee.netlify.app/"
     }
+   
   ];
 
   return (
